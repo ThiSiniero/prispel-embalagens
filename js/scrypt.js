@@ -12,18 +12,18 @@ sr.reveal(logo, {   // efeito no logo
     origin: 'top',
  });
 
-window.addEventListener("scroll", function(event) {   //esconder a navbar
-            if(window.pageYOffset>500){
-                itens_navbar.style.background = "rgb(68, 67, 67)";
-                itens_navbar.style.marginTop = "0%";
-                top_page.style. visibility = "hidden";
-            }
-            else{
-                itens_navbar.style.background = "transparent";
-                itens_navbar.style.marginTop = "8%";
-                top_page.style. visibility = "visible";
-            }
-});
+// window.addEventListener("scroll", function(event) {   //esconder a navbar
+//             if(window.pageYOffset>500){
+//                 itens_navbar.style.background = "rgb(68, 67, 67)";
+//                 itens_navbar.style.marginTop = "0%";
+//                 top_page.style. visibility = "hidden";
+//             }
+//             else{
+//                 itens_navbar.style.background = "transparent";
+//                 itens_navbar.style.marginTop = "8%";
+//                 top_page.style. visibility = "visible";
+//             }
+// });
 
 sr.reveal('.imgs_cxTypesL', {   // aparecer imagens dos tipos de caixa esquerda
     rotate: { x:0, y:80,z:0},
