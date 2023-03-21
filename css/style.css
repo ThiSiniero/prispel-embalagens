@@ -40,7 +40,6 @@ header{
     display:grid;
 }
 #btcarrossel{
-    padding-top: 25%;
     cursor: default;
 }
 #btcarrossel span{  /* img bt carrosel */
