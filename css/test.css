@@ -17,7 +17,7 @@ body{
 }
 #titulo{
     padding-top: 5%;
-    color:red;
+    color:orange;
     font-weight: 600;
     font-size: 320%;
     margin-bottom: 5%;
@@ -31,7 +31,6 @@ body{
 
 }
 .nav_itens nav{
-
     border-radius: 5%;
 }
 .nav{
@@ -67,8 +66,9 @@ body{
     cursor: pointer;
 }
 .secTitulo{   /* padding: 1%   font-size: 300%  tirarContainer */
-    margin-right: -5%;
-    margin-left: -5%;
+    /* margin-right: -5%;
+    margin-left: -5%; */
+    padding: 1%;
     margin-bottom: 5%;
     font-size: 250%;
     background-color: rgba(255, 166, 0, 0.699);
