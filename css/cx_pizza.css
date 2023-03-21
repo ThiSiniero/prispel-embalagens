@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+.body{
+    height: 100%;
+
+}
+header{
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(68, 67, 67, 0.76);
+    width: 100%;
+}
+#logo{
+    flex: 0 0 auto;
+    width: 6%;
+}
+#nav-titulo{
+    font-size: 200%;
+    font-weight: 700;
+    color: orange;
+}
+#nav-link{
+    color: white;
+}
+#nav-link:hover{
+    color: orange;
+}
+.nav-item{
+    padding-left: 2%;
+    font-weight: 600;
+}
+.dropdown-menu.show{
+    background-color:rgba(68, 67, 67, 0.76);
+}
+
+main{
+    padding-top: 8%;
+    text-align: center;
+}
+main h1{
+    padding-top: 1%;
+    margin-left: 37%;
+    width: 26%;
+    height: 80px;
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+}
+.sla{
+    background-image:url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper-with-pizza_23-2148683829.jpg");
+    background-size: 100%;
+    background-repeat:  repeat;
+    background-position: top left;
+}
+.cxs_pizza{
+    background-color:white;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 8%;
+    margin-top: 5%;
+}
+.cxs_pizza img{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.cxs_pizza div{
+    padding-top: 5%;
+    font-size: 80%;
+}

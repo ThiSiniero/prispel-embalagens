@@ -1,0 +1,59 @@
+body{
+    background-color: red;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.37);
+}
+#nav-titulo{
+    padding-left: 10%;
+    font-size: 200%;
+    font-weight: 700;
+    color: orange;
+}
+.nav-item{
+    padding-left: 5%;
+    font-weight: 600;
+}
+#carrossel{  
+    padding-top: 5.6%;
+}
+.d-block{   /* img carrosel */ 
+    margin-left: 20%;
+}
+#btcarrossel{
+    padding-top: 20%;
+    cursor: default;
+}
+#btcarrossel span{  /* img bt carrosel */
+    cursor: pointer;
+}
+.apresentation{
+    margin-top: 45%;
+}
+.apresentation p{
+    font-size: 150%;
+}
+.cxTypes{
+    margin-top: 10%;
+}
+.secTitulo{
+    margin-right: -5%;
+    margin-left: -5%;
+    font-size: 250%;
+    background-color: rgba(255, 166, 0, 0.699);
+    color:aliceblue;
+}
+.cxTypes div button{
+    margin-top: 5%;
+    border: 1px solid gray;
+    box-shadow: rgba(105, 105, 105, 0.308)  2px 2px 2px 2px;
+}
+.cxTypes div p{
+    font-size: 150%;
+    color: rgba(0, 0, 0, 0.89);
+}
+.cxSize{
+    margin-top: 10%;
+}
