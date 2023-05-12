@@ -38,3 +38,9 @@ sr.reveal('.imgs_cxTypesR', {   // aparecer imagens dos tipos de caixa direita
      distance: '110px',
      origin: 'right'
  });
+
+const imgsCarrossel = document.querySelectorAll('.w-100');
+
+for( imgCarrossel of imgsCarrossel){
+    imgCarrossel.style.height =  (window.screen.height - 80) + 'px';
+}
